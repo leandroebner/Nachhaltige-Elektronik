@@ -1,0 +1,435 @@
+<!-- markdownlint-disable MD013 MD033 MD035 -->
+
+<!-- ALL IMAGES USED IN THIS PRESENTATION ARE LISTED HERE (AWS S3) --> 
+
+<!-- ![wallpaper](https://hackmd.io/_uploads/rkLfriWfWx.png) -->
+<!-- ![sustainability_pillars](https://hackmd.io/_uploads/By7uaj-fZg.svg) -->
+<!-- ![sdg_poster](https://hackmd.io/_uploads/SyFt8lGM-g.png) -->
+<!-- ![csr_pillars](https://hackmd.io/_uploads/SkgBXJffZx.jpg) -->
+<!-- ![workshop_ifm](https://hackmd.io/_uploads/r1XWYM7MWx.png) -->
+<!-- ![indium](https://hackmd.io/_uploads/r1xJp7QGWe.jpg) -->
+<!-- ![eol_rir](https://hackmd.io/_uploads/By0Ij47zZe.png) -->
+<!-- ![diy_phone](https://hackmd.io/_uploads/SyYKnSmfWe.png) -->
+<!-- ![diy_phone_ta](https://hackmd.io/_uploads/r14UTDNzZx.jpg) -->
+<!-- ![diy_phone_al](https://hackmd.io/_uploads/ry-89vEGZl.jpg) -->
+<!-- ![diy_phone_mit](https://hackmd.io/_uploads/SyZRk_VGZx.jpg) -->
+<!-- ![car_charger](https://hackmd.io/_uploads/r1ylaUNMZe.jpg) -->
+<!-- ![oled_display](https://hackmd.io/_uploads/HJvS4tVM-g.jpg) -->
+<!-- ![fairtronics](https://hackmd.io/_uploads/BJnBVF4fbe.png) -->
+
+# Nachhaltige Entwicklung von Elektronik
+
+<!-- .slide: data-background-image="https://hackmd.io/_uploads/rkLfriWfWx.png" data-background-opacity="0.5" -->
+`nachhaltigkeit.leandro-ebner.de`
+
+---
+
+## Gliederung
+
+1. Corporate Social Responsibility <!-- .element: class="fragment fade-in-then-semi-out" -->
+2. Rohstoffmangel <!-- .element: class="fragment fade-in-then-semi-out" -->
+3. Konfliktressourcen <!-- .element: class="fragment fade-in-then-semi-out" -->
+4. Lieferketten <!-- .element: class="fragment fade-in-then-semi-out" -->
+5. Sustainability Data <!-- .element: class="fragment fade-in-then-semi-out" -->
+
+---
+
+## Corporate Social Responsibility
+
+:::info
+Definition: *CSR* bezeichnet die Integration von ökologischen, sozialen und wirtschaftlichen Faktoren in die Unternehmenstätigkeit auf freiwilliger und manchmal auch rechtlicher Basis.
+:::
+<!-- .element: class="fragment fade-down" -->
+
+-> Wird in Europa häufig als die Umsetzung einer [nachhaltigen Entwicklung][fn1] im Unternehmen verstanden, die die drei Säulen Umwelt, Soziales und Wirtschaft umfasst.
+<!-- .element: class="fragment fade-right" -->
+
+<small>Quelle: [https://de.wikipedia.org/][fn2]</small>
+
+[fn1]: https://de.wikipedia.org/wiki/Nachhaltige_Entwicklung "Nachhaltige Entwicklung auf Wikipedia"
+[fn2]: https://de.wikipedia.org/wiki/Corporate_Social_Responsibility "CSR auf Wikipedia"
+
+----
+
+### Due Diligence
+
+<!-- .slide: data-background-color="white" -->
+:::success
+Fünf Kernelemente der Sorgfaltspflicht:
+![csr_pillars](https://hackmd.io/_uploads/SkgBXJffZx.jpg)
+<small>Quelle: [https://www.csr-in-deutschland.de/][fn1]</small>
+:::
+<!-- .element: class="fragment fade-down" -->
+
+[fn1]: https://www.csr-in-deutschland.de/DE/Wirtschaft-Menschenrechte/NAP/Unternehmerische-Sorgfaltspflicht/Fuenf-Kernelemente-Sorgfaltspflicht/fuenf-kernelemente-sorgfaltspflicht "Sorgfaltspflicht auf CSR-in-Deutschland.de"
+
+----
+
+### Generelle Sorgfaltspflichten
+
+<!-- .slide: data-background-color="white" -->
+```mermaid
+---
+# (C) 2025 by Leandro Ebner CC BY-SA 4.0
+
+config:
+    theme: forest
+---
+
+timeline
+
+title Gesetzliche Regelungen und Rahmenwerke zu Sorgfaltspflichten
+
+2010 : Dodd-Frank Act (Sektion 1502 zu Konfliktmineralien)
+2011 : UN-Leitprinzipien für Wirtschaft und Menschenrechte
+2014 : EU-Richtlinie zur nichtfinanziellen Berichterstattung (NFRD - 2014/95)
+2015 : UN-Treaty-Prozess über ein verbindliches UN-Abkommen zu Wirtschaft und Menschenrechten
+2016 : Deutscher Nationaler Aktionsplan Wirtschaft und Menschenrechte
+2017 : EU-Verordnung über Konfliktmineralien (2017/821)
+2020 : EU-Aktionsplan Kreislaufwirtschaft (u. a. Right to Repair, Elektronik, Batterien)
+2021 : Beschluss des Lieferkettensorgfalts-<br>pflichtengesetz (LkSG)
+2022 : EU-Richtlinie zur Nachhaltigkeits-<br>berichterstattung (CSRD 2022/2464)
+2023 : EU-Batterieverordnung (2023/1542)
+2024 : EU-Richtlinie über unternehmerische Sorgfaltspflichten im Bereich Nachhaltigkeit (CSDDD bzw. CS3D - 2024/1760)
+```
+
+<small>CC BY-SA 4.0</small>
+
+----
+
+### Am Beispiel der ifm-Unternehmemsgruppe
+
+<!-- .slide: data-background-color="white" -->
+```mermaid
+---
+# (C) 2025 by Leandro Ebner CC BY-SA 4.0
+
+config:
+    theme: base
+    timeline:
+        disableMulticolor: true
+---
+
+timeline
+
+title ifm Meilensteine des Umweltschutzes
+
+1984 : Abfalltrennung in Gewerbe- und Sonderabfall
+1990 : ifm-Philosophie des möglichst schonenden Umgangs mit natürlichen Ressourcen
+1991 : Schaffung der Abteilung Arbeitssicherheit und Umweltschutz
+1993 : Erstellung einer ersten betrieblichen Ökobilanz, die seither jährlich aktualisiert wird
+2000 : Einführung eines ifm-eigenen Umwelt-<br>managementsystems entsprechend ISO 14001
+2006 : Weitgehende Umsetzung der RoHS1-Anforderungen
+2008 : Erfolgreichster Teilnehmer des Projekts "EnBW Netzwerk Energieeffizienz Ravensburg", Erhalt der Auszeichnung energieeffizientestes Unternehmen
+2017 : Start der Umsetzung der RoHS2 für den Großteil der Produkte (Gerätekategorie 9 und 11)
+2019 : Ende der Umsetzung der RoHS2 für den Großteil der Produkte (Gerätekategorie 9 und 11)
+2020 : Zertifizierung nach DIN EN ISO 14001 und EMAS (EU-Öko-Audit)
+     : 100% Ökostrom an allen wesentlichen europäoschen Standorten
+2030 : Klimaneutralität im operativen Geschäft
+```
+
+<small>CC BY-SA 4.0, Quelle: [https://www.ifm.com/][fn1]</small>
+
+[fn1]: https://www.ifm.com/de/de/shared/unternehmen/nachhaltigkeit/berichte-zertifikate-und-portale "ifm Nachhaltigkeitsportal"
+
+----
+
+### 3 SDGs der ifm-Unternehmensgruppe
+
+<!-- .slide: data-background-image="https://hackmd.io/_uploads/SyFt8lGM-g.png" data-background-opacity="0.1" -->
+1. <!-- .element: class="fragment fade-in-then-semi-out" --> Hochwertige Bildung (SDG 4)
+2. <!-- .element: class="fragment fade-in-then-semi-out" --> Menschenwürdige Arbeit und Wirtschaftswachstum (SDG 8)
+3. <!-- .element: class="fragment fade-in-then-semi-out" --> Maßnahmen zum Klimaschutz (SDG 13)
+
+-> & weitere, zusammenhängende Nachhaltigkeitsziele
+<!-- .element: class="fragment" -->
+
+----
+
+### Rolle in der Entwicklung
+
+<!-- .slide: data-background-image="https://hackmd.io/_uploads/By7uaj-fZg.svg" data-background-opacity="0.1" -->
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Gültigkeitsbereich / Tragweite
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Kennzeichnungen & Transparenz
+- <!-- .element: class="fragment fade-in-then-semi-out" --> ???
+
+----
+
+### Entwicklungsprozess
+
+<!-- .slide: data-background-image="https://hackmd.io/_uploads/r1XWYM7MWx.png" data-background-opacity="0.1" -->
+
+----
+
+<!-- .slide: data-background-image="https://hackmd.io/_uploads/r1XWYM7MWx.png" -->
+
+---
+
+## Rohstoffmangel
+
+<small>
+
+> "Unabhängig davon, ob wir über Computerchips oder Solaranlagen sprechen - **Der Zugang zu Rohstoffen ist entscheidend für den Erfolg unserer Transformation hin zu einer nachhaltigen und digitalen Wirtschaft.** Lithium und seltene Erden werden bald wichtiger sein als Öl und Gas."
+>
+> \~ Ursula von der Leyen
+
+</small>
+<!-- .element: class="fragment fade-down" -->
+
+<small>Quelle: [Rede zur Lage der Union 2022][fn1]</small>
+
+[fn1]: https://ec.europa.eu/commission/presscorner/detail/de/speech_22_5493 "Rede von Präsidentin von der Leyen zur Lage der Union 2022"
+
+----
+
+### Hubbert-Kurve
+
+$$x=\frac{e^{-t}}{(1+e^{-t})^2}=\frac{1}{2+2\ cosh\ t}=\frac{1}{4}{sech}^2\frac{t}{2}$$
+<!-- .element: class="fragment fade-down" -->
+
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Produktionsverlauf einer endlichen Ressource
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Ähnelt einer Glockenkurve
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Fördermaximum entspricht Hubbert-Peak
+
+----
+
+### Förderung von Indium
+
+<!-- .slide: data-background-color="white" -->
+![indium](https://hackmd.io/_uploads/r1xJp7QGWe.jpg)
+<small>Quelle: Halloy, 2018</small>
+<!-- .element: class="fragment fade-down" -->
+
+----
+
+### EOL Recycling Input Rate
+
+<!-- .slide: data-background-color="white" -->
+![eol_rir](https://hackmd.io/_uploads/By0Ij47zZe.png =750x)
+<!-- .element: class="fragment fade-down" -->
+
+---
+
+## Konfliktressourcen
+
+:::info
+Definition: Konfliktressourcen sind natürliche Ressourcen, deren systematische Ausbeutung und Handel im Kontext eines Konfliktes zu schwersten Menschenrechtsverletzungen, Verletzungen des humanitären Völkerrechts oder Verwirklichung völkerstrafrechtlicher Tatbestände führen kann.
+:::
+<!-- .element: class="fragment fade-down" -->
+
+<small>Quelle: [Bonn International Centre for Conflict Studies][fn1]</small>
+
+[fn1]: https://web.archive.org/web/20131207024344/http://www.bicc.de/fataltransactions/rohst_in_buergerkriegen.html
+
+----
+
+### Konfliktmineralien (3TG)
+
+:::danger
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Tantal
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Zinn (Tin)
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Wolfram (Tungsten)
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Gold
+:::
+
+-> aber auch weitere Mineralien wie z.B. Kobalt
+<!-- .element: class="fragment fade-right" -->
+
+----
+
+### Beispiel: DIY-Phone MIT Media Lab
+
+<!-- .slide: data-background-color="white" -->
+![diy_phone_mit](https://hackmd.io/_uploads/SyZRk_VGZx.jpg =614x)
+<!-- .element: class="fragment slide down" -->
+
+<small>Quelle: [MIT Media Lab][fn1]</small>
+
+[fn1]: https://www.media.mit.edu/projects/diy-cellphone/overview/ "DIY-Phone des MIT Media Labs"
+
+----
+
+#### Tantal-Elektrolytkondensator
+
+![diy_phone_ta](https://hackmd.io/_uploads/r14UTDNzZx.jpg =614x)
+<small>Quelle: [University of California, Santa Barbara][fn1]</small>
+
+[fn1]: https://creativetech.mat.ucsb.edu/readings/diy_cellphone.pdf "DIY-Phone der University of California, Santa Barba"
+
+----
+
+#### Aluminium-Elektrolytkondensator
+
+![diy_phone_al](https://hackmd.io/_uploads/ry-89vEGZl.jpg =614x)
+<small>Quelle: [Fabulous St. Pauli][fn1]</small>
+
+[fn1]: https://www.fablab-hamburg.org/fabrica/ "DIY-Phone des Makerspace Fabulous St. Pauli"
+
+----
+
+#### Version des Fabulous St. Pauli
+
+<!-- .slide: data-background-color="white" -->
+![diy_phone](https://hackmd.io/_uploads/SyYKnSmfWe.png =614x)
+<small>Quelle: [Astrid Lorenzen, Fabulous St. Pauli][fn1]</small>
+
+[fn1]: https://www.fablab-hamburg.org/fabrica/ "DIY-Phone des Makerspace Fabulous St. Pauli"
+
+---
+
+## Lieferketten
+
+----
+
+### Beispiel: Datenblatt Shunt
+
+<!-- .slide: data-background-color="rgb(40,40,40)" -->
+{%pdf https://bourns.com/docs/product-datasheets/cfg.pdf?sfvrsn=726f7ef6_12 %}
+
+----
+
+### Beispiel: MDS Shunt
+
+<!-- .slide: data-background-color="rgb(40,40,40)" -->
+{%pdf https://bourns.com/docs/product-mds/cfg0612_mds.pdf?sfvrsn=1f6f7ef6_5 %}
+
+----
+
+### RoHS
+
+:::info
+-> **R**estriction **o**f **H**azardous **S**ubstances
+:::
+<!-- .element: class="fragment fade-down" -->
+
+```mermaid
+---
+# (C) 2025 by Leandro Ebner CC BY-SA 4.0
+config:
+    theme: default
+---
+gantt
+
+title Beschränkung der Verwendung bestimmter gefährlicher Stoffe in Elektro- und Elektronikgeräten
+dateFormat YYYY
+axisFormat %Y
+todayMarker off
+
+Beschluss Richtlinie 2002/95/EG : milestone, m1, 2003, 2003
+
+RoHS 1 : 2004, 2013
+
+Beschluss Richtlinie 2011/65/EU : milestone, m2, 2011, 2011
+
+RoHS 2 : 2013, 2026
+```
+<!-- .element: class="fragment fade-right" -->
+
+----
+
+#### RoHS Massenkonzentrationen
+
+<small>
+
+| Stoff                              | Höchstkonzentration |
+| ---------------------------------- |:-------------------:|
+| Blei (PB)                          |        0,1 %        |
+| Quecksiliber (Hg)                  |        0,1 %        |
+| Cadmium (Cd)                       |       0,01 %        |
+| Sechswertiges Chrom (Cr VI)        |        0,1 %        |
+| Polybromierte Biphenyle (PBB)      |        0,1 %        |
+| Polybromierte Diphenylether (PBDE) |        0,1 %        |
+| Bis(2-ethylhexyl)phthalat (DEHP)   |        0,1 %        |
+| Benzylbutylphthalat (BBP)          |        0,1 %        |
+| Dibutylphthalat (DBP)              |        0,1 %        |
+| Diisobutylphthalat (DIBP)          |        0,1 %        |
+
+</small>
+
+<small>Quelle: [https://de.wikipedia.org/][fn1]</small>
+
+[fn1]: https://de.wikipedia.org/wiki/RoHS-Richtlinien "Wikipedia zu RoHS"
+
+----
+
+#### RoHS Kennzeichnung
+
+<!-- .slide: data-background-color="black" -->
+![car_charger](https://hackmd.io/_uploads/r1ylaUNMZe.jpg =700x)
+<small>Quelle: [https://de.wikipedia.org/][fn1]</small>
+
+[fn1]: https://de.wikipedia.org/wiki/RoHS-Richtlinien "Wikipedia zu RoHS"
+
+----
+
+### Beispiel: Lieferkette Computermaus
+
+<!-- .slide: data-background-color="rgb(40,40,40)"" -->
+{%pdf https://www.nager-it.de/static/pdf/lieferkette.pdf %}
+
+---
+
+## Sustainability Data
+
+----
+
+### Aktueller Zustand
+
+<small>
+ 
+> "Für die Nachhaltigkeit relevanten Entscheidungen werden nicht zentral an einer Stelle getroffen, sondern in den Köpfen des Einzelnen, von Unternehmen bis hin zu Regierungen. Alle Menschen brauchen Zugang zu Daten um ihre eigenen Entscheidungen an Nachhaltigkeitszielen auszurichten."
+>
+> \~ Sebastian Beschke
+
+</small>
+
+----
+
+### Sustainability Data
+
+<!-- .slide: data-background-color="maroon" -->
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Verfügbarkeit und Nutzbarkeit (XML, PDF, etc.) 
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Prioprietäre Tools 
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Lizenzierte Datenbanken 
+- <!-- .element: class="fragment fade-in-then-semi-out" --> Non Disclosure Agreements (NDAs) 
+
+----
+
+### Open Sustainability Data
+
+<!-- .slide: data-background-color="seagreen" -->
+:::success
+-> Es werden die richtigen Tools und Ressourcen benötigt, um die Transformation durchzuführen.
+:::
+<!-- .element: class="fragment fade-down" -->
+
+----
+
+### Beispiel: OLED Display
+
+![oled_display](https://hackmd.io/_uploads/HJvS4tVM-g.jpg =500x)
+<small>Quelle: [https://probots.co.in/][fn1]</small>
+
+[fn1]: https://probots.co.in/0-91-oled-display-blue-128x32-for-arduino-raspberry-pi-i2c.html "OLED Display Distributor"
+
+----
+
+### Beispiel: OLED Display Risikoanalyse
+
+<!-- .slide: data-background-color="white" -->
+![fairtronics](https://hackmd.io/_uploads/BJnBVF4fbe.png)
+<small>Daten generiert mit: [https://gitlab.com/fairloetet/fairtronics](https://gitlab.com/fairloetet/fairtronics)</small>
+
+---
+
+## Fazit
+
+<small>
+
+:::success
+Nachhaltige Elektronik zu entwickeln bedeutet, bewusste Entscheidungen und Kompromisse zu treffen, die zu einer positiven Nachhaltigkeitsbilanz über den gesamten Lebenszyklus des Produkts beitragen.
+:::
+
+</small>
+
+`nachhaltigkeit.leandro-ebner.de`
